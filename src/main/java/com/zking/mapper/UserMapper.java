@@ -11,7 +11,7 @@ import java.util.Set;
 public interface UserMapper {
     //根据用户Id删除用户
     int deleteByPrimaryKey(Integer userid);
-
+    //增加
     int insert(User record);
 
     int insertSelective(User record);
