@@ -9,6 +9,7 @@ import java.util.Set;
 
 @Repository
 public interface UserMapper {
+    //根据用户Id删除用户
     int deleteByPrimaryKey(Integer userid);
 
     int insert(User record);
